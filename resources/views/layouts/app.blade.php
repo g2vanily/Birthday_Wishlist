@@ -30,11 +30,8 @@
                             </button>
                         </form>
                     @else
-                        <a href="{{ route('wishlist.index') }}" class="text-gray-700 hover:text-pink-600">
-                            <i class="fas fa-list mr-1"></i>Wishlist
-                        </a>
-                        <a href="{{ route('login') }}" class="text-gray-700 hover:text-pink-600">
-                            <i class="fas fa-sign-in-alt mr-1"></i>Admin
+                        <a href="{{ route('home') }}" class="text-gray-700 hover:text-pink-600">
+                            <i class="fas fa-home mr-1"></i>Accueil
                         </a>
                     @endauth
                 </div>
